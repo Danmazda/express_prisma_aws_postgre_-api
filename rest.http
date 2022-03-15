@@ -1,0 +1,26 @@
+GET http://localhost:3000/api/list
+
+###
+GET http://localhost:3000/api/list/1
+
+
+###
+POST http://localhost:3000/api/list
+Content-Type: application/json
+
+ {
+   "text" : "Do homework"
+ }
+
+###
+DELETE  http://localhost:3000/api/list/1
+
+###
+PATCH   http://localhost:3000/api/list/2
+Content-Type: application/json
+
+  {
+    "text" : "Speak to professional dev"
+  }
+
+###
